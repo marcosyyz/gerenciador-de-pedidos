@@ -25,11 +25,13 @@ Foi desenvolvido para suportar alto volume de transações (150-200k pedidos por
 
 ## Estrutura do banco
 
+
 ```sql
 orders - pedidos principais
 order_items - itens de cada pedido  
 order_logs - logs do processamento
 ```
+Obs: As tabelas são criadas automaticamente pelo Hibernate na inicialização da aplicação
 
 ## Para executar
 
